@@ -20,7 +20,8 @@ Detach 3D object from bone - detach 3D object from bone (if it is attached) and 
   
 BonePosition. Example: SkeletonTools3D::BonePosition(My3DModel,7,"Global","X").
 
-BoneRotation. Example: SkeletonTools3D::BonePosition(My3DModel,7,"Local","Z"). ! Note: this expression can return strange value. This is due to the fact that rotation on one axis can be compensated by rotation on the other two.
+BoneRotation. Example: SkeletonTools3D::BonePosition(My3DModel,7,"Local","Z"). 
+! Note: this expression can return strange value. This is due to the fact that rotation on one axis can be compensated by rotation on the other two.
 
 BoneScale. Only on local axis.
 
@@ -49,7 +50,8 @@ Detach 3D object from bone - открепить 3Д объект от кости
   
 BonePosition - положение кости. Пример использования: SkeletonTools3D::BonePosition(Моя3дМодель,7,"Global","X").
 
-BoneRotation - угол кости. Пример использования: SkeletonTools3D::BoneRotation(Моя3дМодель,7,"Local","Z"). ! ПРИМЕЧАНИЕ: это выражение может выдавать странные значения. Это связано с тем, что поворот по одной оси может компенсироваться поворотом по двум другим.
+BoneRotation - угол кости. Пример использования: SkeletonTools3D::BoneRotation(Моя3дМодель,7,"Local","Z"). 
+! ПРИМЕЧАНИЕ: это выражение может выдавать странные значения. Это связано с тем, что поворот по одной оси может компенсироваться поворотом по двум другим.
 
 BoneScale - размер кости. Только по локальным осям.
 
