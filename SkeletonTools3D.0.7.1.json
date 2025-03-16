@@ -148,7 +148,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const iter = 0;",
+            "let iter = 0;",
             "function getScene(obj = new THREE.Object3D) {",
             "    if (obj.type == \"Scene\") {",
             "        return obj;",
@@ -536,7 +536,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const iter = 0;",
+            "let iter = 0;",
             "function getScene(obj = new THREE.Object3D) {",
             "    if (obj.type == \"Scene\") {",
             "        return obj;",
@@ -602,7 +602,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const iter = 0;",
+            "let iter = 0;",
             "function getScene(obj = new THREE.Object3D) {",
             "    if (obj.type == \"Scene\") {",
             "        return obj;",
@@ -708,7 +708,7 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "const iter = 0;",
+            "let iter = 0;",
             "function getScene(obj = new THREE.Object3D) {",
             "    if (obj.type == \"Scene\") {",
             "        return obj;",
