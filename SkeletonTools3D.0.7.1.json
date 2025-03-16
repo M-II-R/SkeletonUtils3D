@@ -773,9 +773,9 @@
             "    if (axis2 == \"Z\") {",
             "        eventsFunctionContext.returnValue = THREE.MathUtils.radToDeg(eu.z);",
             "    }",
-            "    ",
+            "    par.attach(bone);",
             "}",
-            "par.attach(bone);",
+            "",
             ""
           ],
           "parameterObjects": "Object",
